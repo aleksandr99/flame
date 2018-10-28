@@ -1,0 +1,163 @@
+* {
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;}
+#page {
+	background-color: #FFFFFF;
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;}
+	/* Шапка сайта */
+	/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	#header {
+		width: 960px;
+		height: 100px;
+		margin: 0 auto;}
+		div.company {
+			float: left;
+			width: 320px;
+			height: 100px;
+			margin: 0 auto;}
+			p.company {
+				font-weight: bold;
+				font-size: 195%;
+				text-align: left;
+				padding: 10px;
+				margin: 0 auto;}
+		div.space {
+			float: left;
+			width: 320px;
+			height: 100px;
+			margin: 0 auto;}
+		div.phone {
+			float: left;
+			width: 320px;
+			height: 100px;
+			margin: 0 auto;}
+			div.phone p {
+				padding: auto auto 5px auto;
+				text-align: right;
+				font-family: Georgia, Times, serif;
+				font-size: 150%;
+				color: #FF4500;}
+			p.phone-top {
+				margin-top: 20px;
+				margin-bottom: 1px;
+				margin-left: auto;
+				margin-right: 10px;}
+			p.phone-bottom {
+				margin-top: 1px;
+				margin-bottom: 20px;
+				margin-left: auto;
+				margin-right: 10px;}
+	/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	
+	/* Панель навигации */
+	/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	#navigation {
+		background-color: #000000;
+		width: 960px;
+		height: 50px;
+		margin: 0 auto;}
+		ul.nav-link {
+			padding: 15px;
+			margin: 0px auto 0px auto;}
+		li.nav-link {
+			display: inline;}
+		a.nav-link {
+			color: #FFFFFF;
+			text-decoration: none;}
+		a.nav-link:hover {
+			color: #FF4500;}
+	/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	
+	/* Хлебные крошки */
+	/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	#breadcrumbs {
+		width: 960px;
+		height: 50px;
+		margin: 0 auto;}
+	/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	
+	/* Основное содержимое страницы */
+	/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	#content {
+		background-color: #F4A460;
+		position: relative;
+		left: 15px;
+		width: 930px;
+		height: 1000px;
+		margin: 0 auto;}
+		div.calculator {
+			background-color: #F5F5F5;
+			text-align: left;
+			float: left;
+			width: 700px;
+			height: 600px;
+			margin: 0 auto;}
+			p.site-section {
+				color: #FF4500;
+				padding-left: 100px;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				margin: 0 auto;
+				font-size: 200%;
+				text-align: left;}
+			form.calc {
+				float: left;}
+				div.calc-elem {
+					margin: 0 auto;
+					padding-top: 10px;
+					padding-bottom: 10px;
+					line-height: 30px;}
+					label.calc {
+						float: left;
+						width: 220px;
+						text-align: right;
+						padding-right: 10px;}
+					input.calc {
+						text-align: left;
+						width: 150px;}
+					select.calc {
+						text-align: left;
+						width: 170px;}
+					div.calc-radio {
+						text-align: left;}
+						input.calc-radio {
+							margin-left: 0px;}
+					input.calc-submit {
+						background-color: #7CFC00;
+						float: left;
+						margin-left: 20px;
+						border-radius: 10px;
+						padding: 5px;
+						width: 200px;}
+					input.calc-submit:hover {
+						background-color: #ADFF2F;}
+					p.output {
+						float: left;
+						clear: left;
+						text-align: left;
+						margin: 0 auto;
+						padding-top: 20px;
+						padding-left: 20px;
+						font-size: 120%;}
+	/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	
+	/* Подвал сайта */
+	/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	#footer {
+		background-color: #696969;
+		width: 960px;
+		height: 80px;
+		margin: 0 auto;}
+		ul.foot-link {
+			float: left;
+			padding: 15px;
+			margin: 0px auto 0px auto;}
+		li.foot-link {
+			display: inline;}
+		a.foot-link {
+			color: #FFFFFF;}
+		a.foot-link:hover {
+			color: #FFFF00;}
+	/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
